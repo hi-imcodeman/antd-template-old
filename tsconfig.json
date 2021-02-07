@@ -22,5 +22,11 @@
   },
   "include": [
     "src"
-  ]
+  ],
+  "typedocOptions": {
+    "includeVersion": true,
+    "exclude": "**/*+(index|setupTests|.spec|.test|.d|.e2e).+(ts|tsx)",
+    "entryPoints": ["src"],
+    "out": "docs"
+  }
 }
