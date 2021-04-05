@@ -25,7 +25,10 @@
   ],
   "typedocOptions": {
     "includeVersion": true,
-    "exclude": "**/*+(index|setupTests|.spec|.test|.d|.e2e).+(ts|tsx)",
+    "exclude": [
+      "**/*+(index|reportWebVitals|setupTests|.spec|.test|.d|.e2e).+(ts|tsx)",
+      "**/stories"
+    ],
     "entryPoints": ["src"],
     "out": "docs"
   }
