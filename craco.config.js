@@ -11,11 +11,11 @@ module.exports = {
             lessLoaderOptions: {
                 lessOptions: {
                     modifyVars: {
-                        // ...getThemeVariables({
-                        //     dark: true, // Enable dark mode
-                        //     compact: false, // Enable compact mode
-                        // }),
-                        // '@primary-color': '#1DA57A',
+                        ...getThemeVariables({
+                            dark: false, // Enable dark mode
+                            compact: false, // Enable compact mode
+                        }),
+                        '@primary-color': '#1DA57A',
                     },
                     javascriptEnabled: true,
                 },
