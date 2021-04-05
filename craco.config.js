@@ -10,13 +10,13 @@ module.exports = {
         options: {
             lessLoaderOptions: {
                 lessOptions: {
-                    // modifyVars: {
-                    //     // ...getThemeVariables({
-                    //     //     dark: true, // Enable dark mode
-                    //     //     compact: false, // Enable compact mode
-                    //     // }),
-                    //     '@primary-color': '#1DA57A'
-                    // },
+                    modifyVars: {
+                        // ...getThemeVariables({
+                        //     dark: true, // Enable dark mode
+                        //     compact: false, // Enable compact mode
+                        // }),
+                        '@primary-color': '#1DA57A',
+                    },
                     javascriptEnabled: true,
                 },
             },
