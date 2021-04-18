@@ -1,7 +1,9 @@
 import { FC } from "react";
-import {useRouteMatch} from 'react-router-dom'
+import { useRouteMatch, useHistory, useLocation } from "react-router-dom";
 
 export const About: FC<any> = (props) => {
-  console.log(useRouteMatch());
+  console.log('useRouteMatch():',useRouteMatch());
+  console.log('useHistory():',useHistory());
+  console.log('useLocation():',useLocation());
   return <h1>About Us</h1>;
 };
